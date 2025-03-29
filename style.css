@@ -4,12 +4,14 @@ font-family: Arial, sans-serif;
 text-align: center;
 margin: 0;
 padding: 0;
+background-color: #1E1E1E;
+color: white;
 }
 
 
 /* Stile per i titoli */
 h1 {
-color: #222;
+color: lime;
 }
 
 /* Stile per le liste */
