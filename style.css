@@ -20,7 +20,7 @@ p {
 font-size: 1.2em; /* Dimensione del font */
 line-height: 1.6; /* Spaziatura tra le righe */
 margin: 20px 0; 
-padding: 10px; text-align: justify; /
+padding: 10px; text-align: justify; 
 max-width: 800px; 
 margin-left: auto;
 margin-right: auto; /* Centra il testo */
