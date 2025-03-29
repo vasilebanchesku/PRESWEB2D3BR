@@ -1,4 +1,4 @@
-/* Stile base del sito */
+
 body {
 font-family: Arial, sans-serif;
 text-align: center;
@@ -9,12 +9,24 @@ color: white;
 }
 
 
-/* Stile per i titoli */
+
 h1 {
-color: lime;
+font-size: 3em;
+color: #00FF00;
+margin-top: 40px;
+
+}
+p {
+font-size: 1.2em; /* Dimensione del font */
+line-height: 1.6; /* Spaziatura tra le righe */
+margin: 20px 0; 
+padding: 10px; text-align: justify; /
+max-width: 800px; 
+margin-left: auto;
+margin-right: auto; /* Centra il testo */
 }
 
-/* Stile per le liste */
+
 ul {
 list-style-type: none;
 padding: 0;
@@ -44,7 +56,7 @@ align-items: center;
 .sidebar .logo {
 width: 55px; 
 height: 45px;        
-margin-bottom: 20px;
+margin-bottom: 5px;
 }
 
 
@@ -64,7 +76,7 @@ opacity: 0.8;
 transition: opacity 0.3s;
 }
 
-/* Effetto al passaggio del mouse sulle icone */
+
 .sidebar a:hover img {
 opacity: 1;
 }
